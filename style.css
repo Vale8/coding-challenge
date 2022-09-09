@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Container  */
+#container {
+  background: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 60px 60px 90px 60px;
+}
+
+/* Logo e titolo  */
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 180px;
+}
+
+header h1 {
+  color: #00DD00;
+  font-size: 24px;
+}
+
+/* Barra con vari link  */
+nav {
+  background-color: #00DD00;
+  text-align: center;
+  height: 30px;
+}
+
+nav > a {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-size: 11px;
+  border: 1px solid #000000;
+  padding: 0 2px;
+  line-height: 30px;
+  border-radius: 2px;
+}
+
+nav > a:hover {
+  background-color: #EFEFEF;
+  color: #262421;
+}
+
+/* Parte centrale  */
+main {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+main > div {
+  margin-top: 25px;
+}
+
+main > div:first-child {
+  margin-top: 0;
+}
+
+main h2 {
+  font-size: 18px;
+  display: inline-block;
+}
+
+main span {
+  display: block;
+}
+
+main span:before {
+  content: "\2192";
+}
+
+/* Sfondi barre di caricamento  */
+.caricamento {
+  border-radius: 3px;
+  height: 22px;
+}
+
+.sezione1 .caricamento {
+  background-color: #F5B453;
+  width: 38%;
+}
+
+.sezione2 .caricamento {
+  background-color: #1EC31E;
+  width: 60%;
+}
+
+.sezione3 .caricamento {
+  background-color: #BE4141;
+  width: 16%;
+}
